@@ -25,6 +25,7 @@ body {
   background-size: cover;
   background-color: var(--red);
   background-position: center;
+  display:flex;
 }
 .main-container {
   margin: 0 auto;
@@ -32,8 +33,9 @@ body {
   width: 90%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-top: 7.5rem;
   grid-gap: 1.4rem;
+  align-self: center;
+  justify-self: center;
 }
 .info-section {
   display: flex;
