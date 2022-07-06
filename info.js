@@ -23,6 +23,6 @@ function handleSubmit (e){
   const lastName=userLastName.value;
   const email=userEmail.value;
   const password=userPass.value;
-  alert("Thanks for applying "+firstName+ ", the details would be sent your email address at :"+email+" shortly");
+  alert("Thanks for applying "+firstName+ ", the details would be sent to your email address at :"+email+" shortly");
 }
 
